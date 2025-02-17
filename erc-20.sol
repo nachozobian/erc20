@@ -22,6 +22,7 @@ interface IERC20 {
 
 }
 
+// ERC20 contract
 contract ERC20 is IERC20{
 
   mapping(address => uint256) private _balances;
